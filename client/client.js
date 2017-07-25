@@ -1,12 +1,17 @@
 var frontpage = [
-	"                            _           _         _       _   ",
-	"                           | |_ ___ ___| |_   ___| |_ ___| |_ ",
-	"                           |   |_ ||  _| '_| |  _|   |_ ||  _|",
-	"                           |_|_|__/|___|_,_|.|___|_|_|__/|_|  ",
+	"                            _______ _       _______ _______________________________    _______         ________________",
+	"                           (  ____ ( \     (  ___  (  ____ \__   __\__   __(  ____ \  (  ____ |\     /(  ___  \__   __/",
+	"                           | (    \| (     | (   ) | (    \/  ) (     ) (  | (    \/  | (    \| )   ( | (   ) |  ) (   ",
+	"                           | (__   | |     | (___) | (_____   | |     | |  | |        | |     | (___) | (___) |  | |   ",
+	"                           |  __)  | |     |  ___  (_____  )  | |     | |  | |        | |     |  ___  |  ___  |  | |   ",
+	"                           | (     | |     | (   ) |     ) |  | |     | |  | |        | |     | (   ) | (   ) |  | |   ",
+	"                           | (____/| (____/| )   ( /\____) |  | |  ___) (__| (____/\  | (____/| )   ( | )   ( |  | |   ",
+	"                           (_______(_______|/     \\_______)  )_(  \_______(_______/  (_______|/     \|/     \|  )_(   ",
+                                                                                            
 	"",
 	"",
-	"Welcome to hack.chat, a minimal, distraction-free chat application.",
-	"Channels are created and joined by going to https://hack.chat/?your-channel. There are no channel lists, so a secret channel name can be used for private discussions.",
+	"Welcome to elastic chat, a minimal, distraction-free chat application.",
+	"Channels are created and joined by going to https://hack.chat/?whatever-chatroom-name-you-picked. There are no channel lists, so a secret channel name can be used for private discussions.",
 	"",
 	"Here are some pre-made channels you can join:",
 	"?lounge ?meta",
@@ -20,11 +25,11 @@ var frontpage = [
 	"Whitespace is preserved, so source code can be pasted verbatim.",
 	"Surround LaTeX with a dollar sign for inline style $\\zeta(2) = \\pi^2/6$, and two dollars for display. $$\\int_0^1 \\int_0^1 \\frac{1}{1-xy} dx dy = \\frac{\\pi^2}{6}$$",
 	"",
-	"GitHub: https://github.com/AndrewBelt/hack.chat",
-	"Android apps: https://goo.gl/UkbKYy https://goo.gl/qasdSu",
+	"GitHub: chat.elasticrack.com",
+	"Android apps: Coming Soon",
 	"",
 	"Server and web client released under the MIT open source license.",
-	"No message history is retained on the hack.chat server.",
+	"No message history is retained on the Elastic Rack anywhere on our server.",
 ].join("\n")
 
 function $(query) {return document.querySelector(query)}
